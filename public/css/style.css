@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'new_walt_disney_fontregular';
+    src: url('newwalt-webfont.woff2') format('woff2'), url('newwalt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.main{
+	background-color: rgb(28, 28, 22);
+	background-image: url('../images/bgmain.png');
+	background-size: cover;
+	min-height: 100vh;
+}
+.fbdiv{
+	text-align: right;
+	margin-right: 40px;
+	padding-top: 30px;
+	min-height: 35vh;
+}
+.vittitle{
+	color: #f0c30e;
+	text-align: center;
+	font-weight: 900;
+	font-size: 3rem;
+	
+}
+.vitmotto{
+	text-align: center;
+	font-family: 'new_walt_disney_fontregular';
+	color: #fff;
+}
+.underlinehr{
+	width:50px;
+	color: yellow;
+	background-color: #f0c30e;
+}
+.but{
+	text-align: center;
+	padding: 15px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #a0830c;	
+	color: #fff;
+	border: none;
+}
+.loginbut{
+	margin-right: 85px;
+}
+.butdiv{
+	text-align: center;
+}
+
+@media (min-width: 769px){
+	.vittitle{
+		font-size: 4.5rem;
+	}
+}
+/*
+<!-- <div class="col s12 l6 m6 input-field">
+                    <input required type="text" name="block" value="<?php if(isset($block)) echo $block;?>" id="block" />
+                    <label <?php if(isset($block)) echo " class='active' ";?> for="block">Block</label>
+                    <span class="regerror">
+                        <?php
+                        if(isset($regerrors) && isset($regerrors['block']))
+                            echo $regerrors['block'];
+                        ?>
+                    </span>
+                </div> -->
+                */

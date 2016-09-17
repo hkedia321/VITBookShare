@@ -1,0 +1,57 @@
+.main
+{
+	margin-left: 300px;
+	padding: 0px;
+}
+.navlinks li.active{
+	background-color: rgb(238, 110, 115) !important;
+}
+.nav{
+	position: static;
+}
+.userView{
+	background-image: url('../images/book2.png');
+	min-height: 150px;
+	text-align: center;
+}
+.userView .navname,.navregno,.userView .fa-user{
+	color: #fff;
+	text-align: center;
+}
+.userView .fa-user{
+	display: inline-block;
+	margin-top: 15px;
+}
+.navname{
+	
+}
+.border{
+	border: 1px solid black;
+}
+.navregno{
+	margin: -30px !important;
+}
+.navlinks{
+	padding: 5px;
+	padding-top: 35px;
+}
+.pinkcolor{
+	width:100% !important;
+}
+.greencolor{
+	color: green;
+}
+.navbutton{
+		display: none;
+	}
+@media only screen and (max-width : 992px) {
+	header, .main, footer {
+		margin-left: 0;
+	}
+	.navbutton{
+		display: block;
+	}
+}
+/*
+<a href="#" data-activates="slide-out" class="button-collapse navbutton"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
+*/

@@ -1,0 +1,60 @@
+.fbdiv{
+	text-align: right;
+	margin-right: 20px;
+	padding-top: 10px;
+}
+.vittitle{
+	color: #f0c30e;
+	text-align: center;
+	font-weight: 900;
+	font-size: 2rem;
+	margin-top: -10px;
+}
+.underlinehr{
+	width:50px;
+	color: yellow;
+	background-color: #f0c30e;
+}
+.card{
+	padding: 5%;
+}
+.required{
+	color: red;
+}
+.regerror{
+	color: red;
+	font-size: 12px;
+
+}
+.redcolor{
+	color: red;
+}
+.fa-home{
+	margin-left: 20px;
+	padding-top: 5px;
+}
+@media (min-width: 769px){
+	.vittitle{
+		font-size: 3.5rem;
+		margin-top: -20px;
+	}
+	.fbdiv{
+	text-align: right;
+	margin-right: 40px;
+	padding-top: 30px;
+}
+.fa-home{
+	margin-left: 20px;
+	padding-top: 4px;
+}
+}
+/*
+name 30
+regno 9
+email 40
+phone 11
+block 10
+roomno 7
+password 30
+passwordconfirm 30
+*/

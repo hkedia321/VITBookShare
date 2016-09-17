@@ -1,0 +1,3 @@
+CREATE TABLE user(name varchar(30) not null,regno varchar(9) not null, email varchar(50),phone bigint(11), block int(2) not null, roomno varchar(6) not null,password varchar(60) not null,primary key(regno));
+
+CREATE TABLE book(id int not null auto_increment,name varchar(100) not null,author varchar(100) not null, course varchar(50), price int, health varchar(200),owner_id varchar(9) not null, owner_name varchar(30) not null, owner_email varchar(50), owner_phone bigint(11), owner_block int(2),owner_roomno varchar(6),imageuploaded tinyint(1),visible tinyint(1) default 1,primary key(id));

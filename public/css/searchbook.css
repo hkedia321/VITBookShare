@@ -1,0 +1,52 @@
+.booktitle{
+	text-decoration: underline;
+}
+.bookimg{
+	height: 100% ;
+}
+section.book{
+	position: relative;
+}
+.bookprice{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 1.4rem;
+	color: rgb(238, 110, 115);
+}
+.bookcourse{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.clicktoview{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color: blue;
+}
+.nobook{
+	color: red;
+}
+.searchform{
+	margin-left: auto;
+	margin-right: auto;
+}
+section.book{
+	cursor: pointer;
+}
+.ownedby{
+	color: #8e8383;
+}
+.modal .fa{
+	vertical-align: middle;
+}
+.modal{
+	overflow-x: hidden;
+}
+#youhave{
+	color: rgb(238, 110, 115);
+}
+.bookimg{
+	z-index: 999999 !important;
+}
